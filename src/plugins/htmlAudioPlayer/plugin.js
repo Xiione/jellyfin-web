@@ -137,7 +137,6 @@ class HtmlAudioPlayer {
                         ?? options.item.NormalizationGain;
                 } else {
                     console.debug('normalization disabled');
-                    return;
                 }
 
                 audioNodeBus[0].gain.linearRampToValueAtTime(
